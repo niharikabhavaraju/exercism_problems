@@ -2,6 +2,7 @@ package hamming
 
 import "errors"
 
+// Distance calculates the hamming distance between two DNA strands
 func Distance(a, b string) (int, error) {
 
 	if len(a) != len(b) {
